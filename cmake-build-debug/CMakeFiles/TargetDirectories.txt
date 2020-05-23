@@ -1,0 +1,3 @@
+/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles/oi.dir
+/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles/edit_cache.dir

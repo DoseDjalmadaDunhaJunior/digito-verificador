@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/djalma/Desktop/oi/Cnpj.h
+stdio.h
+-
+stdlib.h
+-
+thread
+-
+chrono
+-
+ctime
+-
+
+/home/djalma/Desktop/oi/Cpf.h
+stdio.h
+-
+stdlib.h
+-
+thread
+-
+chrono
+-
+ctime
+-
+
+/home/djalma/Desktop/oi/main.cpp
+Cpf.h
+/home/djalma/Desktop/oi/Cpf.h
+Cnpj.h
+/home/djalma/Desktop/oi/Cnpj.h
+
