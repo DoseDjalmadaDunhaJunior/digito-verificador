@@ -1,6 +1,7 @@
 #include "Cpf.h"
 #include "Cnpj.h"
 
+
 using namespace std;
 
 static char temp[1200000][13], cpf[600000][13], cnpj[600000][14];
@@ -84,54 +85,38 @@ int main(){
 
     separa();
 
-    //inicia a contagem de tempo para a execução
-    std::clock_t c_start = std::clock();
-    auto t_start = std::chrono::high_resolution_clock::now();
+    clock_t tempo = clock();
 
-    for(int i = 0; i < 75000; i++){
+    for (int i = 0; i < 100000; i++) {
+        thread tr1(CPF, cpf[i]);
+        thread tr2(CNPJ, cnpj[i]);
+        thread tr3(CPF, cpf[i + 100000]);
+        thread tr4(CNPJ, cnpj[i + 100000]);//200000
+        thread tr5(CPF, cpf[i + 200000]);
+        thread tr6(CNPJ, cnpj[i + 200000]);//300000
+        thread tr7(CPF, cpf[i + 300000]);
+        thread tr8(CNPJ, cnpj[i + 300000]);//400000
+        thread tr9(CPF, cpf[i + 400000]);
+        thread tr10(CNPJ, cnpj[i + 400000]);//500000
+        thread tr11(CPF, cpf[i + 500000]);
+        thread tr12(CNPJ, cnpj[i + 500000]);//600000
 
-        thread t1(CPF, cpf[i]);
-        thread t3(CPF, cpf[i + 75000]);
-        thread t5(CPF, cpf[i + 150000]);
-        thread t7(CPF, cpf[i + 225000]);
-        thread t9(CPF, cpf[i + 300000]);
-        thread t11(CPF, cpf[i + 375000]);
-        thread t13(CPF, cpf[i + 450000]);
-        thread t15(CPF, cpf[i + 525000]);
-
-        thread t2(CNPJ, cnpj[i]);
-        thread t4(CNPJ, cnpj[i + 75000]);
-        thread t6(CNPJ, cnpj[i + 150000]);
-        thread t8(CNPJ, cnpj[i + 225000]);
-        thread t10(CNPJ, cnpj[i + 300000]);
-        thread t12(CNPJ, cnpj[i + 375000]);
-        thread t14(CNPJ, cnpj[i + 450000]);
-        thread t16(CNPJ, cnpj[i + 525000]);
-
-        t1.join();
-        t2.join();
-        t3.join();
-        t4.join();
-        t5.join();
-        t6.join();
-        t7.join();
-        t8.join();
-        t9.join();
-        t10.join();
-        t11.join();
-        t12.join();
-        t13.join();
-        t14.join();
-        t15.join();
-        t16.join();
+        tr1.join();
+        tr2.join();
+        tr3.join();
+        tr4.join();
+        tr5.join();
+        tr6.join();
+        tr7.join();
+        tr8.join();
+        tr9.join();
+        tr10.join();
+        tr11.join();
+        tr12.join();
     }
-
     salva();
 
-    //tempo que demora para concluir os processos
-    std::clock_t c_end = std::clock();
-    auto t_end = std::chrono::high_resolution_clock::now();
-    printf("%f", (std::chrono::duration<double, std::milli>(t_end-t_start).count())/1000);
-
+    clock_t fim = clock();
+    printf("%f", (fim-tempo)/ (double)CLOCKS_PER_SEC);
     return 0;
 }

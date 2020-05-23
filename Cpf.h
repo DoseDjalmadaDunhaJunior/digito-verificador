@@ -9,6 +9,7 @@
 #include <thread>
 #include <chrono>
 #include <ctime>
+#include <time.h>
 using namespace std;
 class Cpf {
 public:
