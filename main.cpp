@@ -1,11 +1,6 @@
 #include "Cpf.h"
 #include "Cnpj.h"
 
-/**
- * para rodar g++ main.cpp -std=c++0x -lpthread -o main
- *./main
- */
-
 using namespace std;
 
 static char temp[1200000][13], cpf[600000][13], cnpj[600000][14];

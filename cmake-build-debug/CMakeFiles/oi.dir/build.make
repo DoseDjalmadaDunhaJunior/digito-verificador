@@ -43,10 +43,10 @@ RM = /home/djalma/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.6494.38/bin
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/djalma/Desktop/oi
+CMAKE_SOURCE_DIR = /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/djalma/Desktop/oi/cmake-build-debug
+CMAKE_BINARY_DIR = /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oi.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/oi.dir/flags.make
 
 CMakeFiles/oi.dir/main.cpp.o: CMakeFiles/oi.dir/flags.make
 CMakeFiles/oi.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oi.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oi.dir/main.cpp.o -c /home/djalma/Desktop/oi/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oi.dir/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oi.dir/main.cpp.o -c /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/main.cpp
 
 CMakeFiles/oi.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oi.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/oi/main.cpp > CMakeFiles/oi.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/main.cpp > CMakeFiles/oi.dir/main.cpp.i
 
 CMakeFiles/oi.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oi.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/oi/main.cpp -o CMakeFiles/oi.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/main.cpp -o CMakeFiles/oi.dir/main.cpp.s
 
 CMakeFiles/oi.dir/Cpf.cpp.o: CMakeFiles/oi.dir/flags.make
 CMakeFiles/oi.dir/Cpf.cpp.o: ../Cpf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oi.dir/Cpf.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oi.dir/Cpf.cpp.o -c /home/djalma/Desktop/oi/Cpf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oi.dir/Cpf.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oi.dir/Cpf.cpp.o -c /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.cpp
 
 CMakeFiles/oi.dir/Cpf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oi.dir/Cpf.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/oi/Cpf.cpp > CMakeFiles/oi.dir/Cpf.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.cpp > CMakeFiles/oi.dir/Cpf.cpp.i
 
 CMakeFiles/oi.dir/Cpf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oi.dir/Cpf.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/oi/Cpf.cpp -o CMakeFiles/oi.dir/Cpf.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.cpp -o CMakeFiles/oi.dir/Cpf.cpp.s
 
 CMakeFiles/oi.dir/Cnpj.cpp.o: CMakeFiles/oi.dir/flags.make
 CMakeFiles/oi.dir/Cnpj.cpp.o: ../Cnpj.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oi.dir/Cnpj.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oi.dir/Cnpj.cpp.o -c /home/djalma/Desktop/oi/Cnpj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oi.dir/Cnpj.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oi.dir/Cnpj.cpp.o -c /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.cpp
 
 CMakeFiles/oi.dir/Cnpj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oi.dir/Cnpj.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/djalma/Desktop/oi/Cnpj.cpp > CMakeFiles/oi.dir/Cnpj.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.cpp > CMakeFiles/oi.dir/Cnpj.cpp.i
 
 CMakeFiles/oi.dir/Cnpj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oi.dir/Cnpj.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/djalma/Desktop/oi/Cnpj.cpp -o CMakeFiles/oi.dir/Cnpj.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.cpp -o CMakeFiles/oi.dir/Cnpj.cpp.s
 
 # Object files for target oi
 oi_OBJECTS = \
@@ -110,7 +110,7 @@ oi: CMakeFiles/oi.dir/Cpf.cpp.o
 oi: CMakeFiles/oi.dir/Cnpj.cpp.o
 oi: CMakeFiles/oi.dir/build.make
 oi: CMakeFiles/oi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable oi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable oi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/oi.dir/clean:
 .PHONY : CMakeFiles/oi.dir/clean
 
 CMakeFiles/oi.dir/depend:
-	cd /home/djalma/Desktop/oi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/djalma/Desktop/oi /home/djalma/Desktop/oi /home/djalma/Desktop/oi/cmake-build-debug /home/djalma/Desktop/oi/cmake-build-debug /home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles/oi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/oi.dir/depend
 

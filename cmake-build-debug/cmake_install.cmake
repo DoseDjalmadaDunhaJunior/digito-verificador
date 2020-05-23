@@ -1,4 +1,4 @@
-# Install script for directory: /home/djalma/Desktop/oi
+# Install script for directory: /media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/djalma/Desktop/oi/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

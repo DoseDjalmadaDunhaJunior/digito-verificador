@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/djalma/Desktop/oi/Cnpj.cpp" "/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles/oi.dir/Cnpj.cpp.o"
-  "/home/djalma/Desktop/oi/Cpf.cpp" "/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles/oi.dir/Cpf.cpp.o"
-  "/home/djalma/Desktop/oi/main.cpp" "/home/djalma/Desktop/oi/cmake-build-debug/CMakeFiles/oi.dir/main.cpp.o"
+  "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.cpp" "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/Cnpj.cpp.o"
+  "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.cpp" "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/Cpf.cpp.o"
+  "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/main.cpp" "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

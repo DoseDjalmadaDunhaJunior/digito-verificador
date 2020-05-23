@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/djalma/Desktop/oi/cmake-build-debug"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/djalma/Desktop/oi/cmake-build-debug"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="oi">
-				<Option output="/home/djalma/Desktop/oi/cmake-build-debug/oi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/djalma/Desktop/oi/cmake-build-debug"/>
+				<Option output="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/oi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 oi"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 oi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="oi/fast">
-				<Option output="/home/djalma/Desktop/oi/cmake-build-debug/oi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/djalma/Desktop/oi/cmake-build-debug"/>
+				<Option output="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/oi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,39 +67,39 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 oi/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 oi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/djalma/Desktop/oi/cmake-build-debug"/>
+				<Option working_dir="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/djalma/Desktop/oi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/djalma/Desktop/oi/Cnpj.cpp">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.cpp">
 			<Option target="oi"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/oi/Cnpj.h">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.h">
 			<Option target="oi"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/oi/Cpf.cpp">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.cpp">
 			<Option target="oi"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/oi/Cpf.h">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.h">
 			<Option target="oi"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/oi/main.cpp">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/main.cpp">
 			<Option target="oi"/>
 		</Unit>
-		<Unit filename="/home/djalma/Desktop/oi/CMakeLists.txt">
+		<Unit filename="/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
