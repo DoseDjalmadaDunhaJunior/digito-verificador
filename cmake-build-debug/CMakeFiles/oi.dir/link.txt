@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/oi.dir/main.cpp.o CMakeFiles/oi.dir/Cpf.cpp.o CMakeFiles/oi.dir/Cnpj.cpp.o  -o oi 
+/usr/bin/c++  -g   CMakeFiles/oi.dir/main.cpp.o CMakeFiles/oi.dir/Cpf.cpp.o CMakeFiles/oi.dir/Cnpj.cpp.o  -o oi 

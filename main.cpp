@@ -114,9 +114,9 @@ int main(){
     clock_t tempo = clock();
 
 
-    calculoParalelo();
-    //calculoSerial();
-
+    //calculoParalelo();
+    calculoSerial();
+    
     salva();
 
     //tempo que demora para concluir os processos

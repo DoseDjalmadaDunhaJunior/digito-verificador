@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.cpp" "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/Cnpj.cpp.o"
-  "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.cpp" "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/Cpf.cpp.o"
-  "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/main.cpp" "/media/djalma/09BBDA931A86D9AA1/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/main.cpp.o"
+  "/media/jose/09BBDA931A86D9AA/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cnpj.cpp" "/media/jose/09BBDA931A86D9AA/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/Cnpj.cpp.o"
+  "/media/jose/09BBDA931A86D9AA/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/Cpf.cpp" "/media/jose/09BBDA931A86D9AA/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/Cpf.cpp.o"
+  "/media/jose/09BBDA931A86D9AA/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/main.cpp" "/media/jose/09BBDA931A86D9AA/paradas_de_algoritmo/Setimo_semestre/Sistemas_distribuidos/digito-verificador/cmake-build-debug/CMakeFiles/oi.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
