@@ -1,7 +1,6 @@
 #include "Cpf.h"
 #include "Cnpj.h"
 
-
 using namespace std;
 
 static char temp[1200000][13], cpf[600000][13], cnpj[600000][14];
@@ -79,43 +78,48 @@ void salva(){
     fclose(arq2);
 }
 
+void calculoSerial(){
+    Cpf oi;
+    Cnpj ola;
+    for (int i = 0; i < 600000; i++) {
+        oi.parcela1(cpf[i]);
+        oi.parcela2(cpf[i]);
+        ola.parcela1(cnpj[i]);
+        ola.parcela2(cnpj[i]);
+    }
+}
+
+void calculoParalelo(){
+
+    for (int i = 0; i < 300000; i++) {
+        thread tr1(CPF, cpf[i]);
+        thread tr2(CNPJ, cnpj[i]);
+        thread tr3(CPF, cpf[i + 300000]);
+        thread tr4(CNPJ, cnpj[i + 300000]);
+        tr1.join();
+        tr2.join();
+        tr3.join();
+        tr4.join();
+    }
+}
+
 int main(){
 
     popula();
 
     separa();
 
+    calculoSerial();
+    //inicia a contagem de tempo para a execução
     clock_t tempo = clock();
 
-    for (int i = 0; i < 100000; i++) {
-        thread tr1(CPF, cpf[i]);
-        thread tr2(CNPJ, cnpj[i]);
-        thread tr3(CPF, cpf[i + 100000]);
-        thread tr4(CNPJ, cnpj[i + 100000]);//200000
-        thread tr5(CPF, cpf[i + 200000]);
-        thread tr6(CNPJ, cnpj[i + 200000]);//300000
-        thread tr7(CPF, cpf[i + 300000]);
-        thread tr8(CNPJ, cnpj[i + 300000]);//400000
-        thread tr9(CPF, cpf[i + 400000]);
-        thread tr10(CNPJ, cnpj[i + 400000]);//500000
-        thread tr11(CPF, cpf[i + 500000]);
-        thread tr12(CNPJ, cnpj[i + 500000]);//600000
 
-        tr1.join();
-        tr2.join();
-        tr3.join();
-        tr4.join();
-        tr5.join();
-        tr6.join();
-        tr7.join();
-        tr8.join();
-        tr9.join();
-        tr10.join();
-        tr11.join();
-        tr12.join();
-    }
+    calculoParalelo();
+    //calculoSerial();
+
     salva();
 
+    //tempo que demora para concluir os processos
     clock_t fim = clock();
     printf("%f", (fim-tempo)/ (double)CLOCKS_PER_SEC);
     return 0;
